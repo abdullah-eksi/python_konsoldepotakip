@@ -82,11 +82,16 @@ class User:
             user_id (int): İşlemi gerçekleştiren kullanıcının ID'si.
         """
         users = db.listele("users")
-        
+    
         if users:
+            
+            values = [
+                (user[0], user[1], user[2], user[4], user[5]) 
+                for user in users
+            ]
             columns = ["id", "Kullanıcı Adı", "Eposta", "Yetkisi", "Hesap Açılış Tarihi"]
             print("")
-            df = pd.DataFrame(users, columns=columns)
+            df = pd.DataFrame(values, columns=columns)
             print(df.to_string(index=False))
             detail = "Kullanıcılar listelendi"
             db.log_activity(user_id, detail, '4', 'users')
