@@ -13,7 +13,7 @@ Konsol Üzerinde Çalışan Basit Bir Depo stok takip uygulamasıdır
 ## Nasıl Kullanılır
 
  - Öncelikle Sisteme Giriş Yapın / Giriş Yapmak için seçiminizi yapın
- - kısmına 1 girmeniz yeterli olcaktır Eğer Üye Değilseniz Kayıt Olun /
+ - Sistme Giriş Yapamk İçin seçimini yap kısmına 1 girmeniz yeterli olcaktır Eğer Üye Değilseniz Kayıt Olun /
  - kayıt olmak için seçiminizi yapın kısmına 2 girmeniz yeterli olcaktır
  -  Artık Sisteme Giriş Yapmış Bulunmaktasınız  Yapmak İstediğiniz İşlemi
  - Menüden Bulun Yapmak İstediğiniz İşlemin Yanındaki Numarayı Yazınız
