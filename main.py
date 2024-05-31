@@ -158,7 +158,7 @@ def main():
                 username = input("Yönetici Kullanıcı Adı: ")
                 email = input("Yönetici E-posta: ")
                 password = input("Yönetici Şifre: ")
-                Depot.add_admin(db, username, email, password, user_id)
+                User.add_admin(db, username, email, password, user_id)
             case "11" if authority == "1":
                 print("\n--- Kullanıcı Listele ---")
                 User.list_users(db, user_id)
